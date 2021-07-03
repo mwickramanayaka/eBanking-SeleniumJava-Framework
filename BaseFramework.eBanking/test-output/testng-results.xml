@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-04T04:26:59 IST" name="Default suite" finished-at="2021-07-04T04:27:10 IST" duration-ms="10411">
+    <groups>
+    </groups>
+    <test started-at="2021-07-04T04:26:59 IST" name="Default test" finished-at="2021-07-04T04:27:10 IST" duration-ms="10411">
+      <class name="eBanking.TestCase.TC_LoginTest_01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:eBanking.TestCase.TC_LoginTest_01@64cd705f]" started-at="2021-07-04T04:26:59 IST" name="setup" finished-at="2021-07-04T04:27:03 IST" duration-ms="3808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:eBanking.TestCase.TC_LoginTest_01@64cd705f]" started-at="2021-07-04T04:27:03 IST" name="loginTest" finished-at="2021-07-04T04:27:08 IST" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eBanking.TestCase.TC_LoginTest_01@64cd705f]" started-at="2021-07-04T04:27:08 IST" name="tearDown" finished-at="2021-07-04T04:27:10 IST" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- eBanking.TestCase.TC_LoginTest_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
