@@ -23,17 +23,19 @@ public class TC_LoginTest_01 extends BaseClass {
 		LoginPage lp = new LoginPage(driver);
 
 		lp.setUserName(userName);
-		logger.info("Entered username");
+		logger.info("username entered");
 		lp.setPassword(password);
-		logger.info("Entered password");
+		logger.info("password entered ");
 		lp.clickLogin();
-
-		if(driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
+		
+		if (driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
 			Assert.assertTrue(true);
+			logger.info("title matched");
 			logger.info("login test passed");
 		}else {
-			Assert.assertTrue(false);
+			logger.warn("expected title not matched with the actual title");
 			logger.error("login test failed");
+			Assert.assertTrue(false);
 		}
 
 
