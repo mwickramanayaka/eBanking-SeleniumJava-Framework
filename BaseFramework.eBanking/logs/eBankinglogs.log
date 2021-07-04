@@ -1,0 +1,5 @@
+[INFO ] 2021-07-04 10:59:51.349 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-04 10:59:51.600 [main] BaseClass - username entered
+[INFO ] 2021-07-04 10:59:51.774 [main] BaseClass - password entered 
+[INFO ] 2021-07-04 10:59:53.770 [main] BaseClass - title matched
+[INFO ] 2021-07-04 10:59:53.770 [main] BaseClass - login test passed

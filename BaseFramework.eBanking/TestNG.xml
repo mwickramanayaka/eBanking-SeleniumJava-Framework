@@ -4,7 +4,7 @@
 <suite name="BaseFramework.eBanking">
 
 	<test name="BankingApp Test">
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="eBanking.testCases.TC_LoginTest_01" />
 		</classes>
