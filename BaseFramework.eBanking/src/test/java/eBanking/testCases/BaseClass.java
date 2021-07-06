@@ -3,6 +3,8 @@
  */
 package eBanking.testCases;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -13,6 +15,12 @@ import org.testng.annotations.Parameters;
 
 import eBanking.utilities.ReadConfig;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -59,5 +67,20 @@ public class BaseClass {
 		driver.quit();
 
 	}
+	
+	public static String captureScreen(WebDriver driver, String tname) throws IOException {
+
+		String dateName = new SimpleDateFormat("yyyy-MM-dd/hh.mm.ss").format(new Date());
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+
+		//after execution you will see a folder "FaiiedTestsScreenshots" under src folder
+		String screenshotPath = System.getProperty("user.dir")+"/Screenshots/" + tname + "-" + dateName + ".png";
+		File finalDestination = new File(screenshotPath);
+		System.out.println("Screenshot taken");
+		FileUtils.copyFile(source, finalDestination);
+		return screenshotPath;
+	}
+	
 
 }

@@ -3,6 +3,8 @@
  */
 package eBanking.testCases;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,7 +17,7 @@ import eBanking.pageObjects.LoginPage;
 public class TC_LoginTest_01 extends BaseClass {
 
 	@Test
-	public void loginTest() {
+	public void loginTest() throws IOException {
 
 		LoginPage lp = new LoginPage(driver);
 
@@ -34,6 +36,7 @@ public class TC_LoginTest_01 extends BaseClass {
 			logger.warn("expected title not matched with the actual title");
 			logger.error("login test failed");
 			Assert.assertTrue(false);
+			
 		}
 
 	}
