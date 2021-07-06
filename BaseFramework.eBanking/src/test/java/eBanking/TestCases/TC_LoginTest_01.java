@@ -29,12 +29,12 @@ public class TC_LoginTest_01 extends BaseClass {
 			Assert.assertTrue(true);
 			logger.info("title matched");
 			logger.info("login test passed");
+			
 		}else {
 			logger.warn("expected title not matched with the actual title");
 			logger.error("login test failed");
 			Assert.assertTrue(false);
 		}
-
 
 	}
 }

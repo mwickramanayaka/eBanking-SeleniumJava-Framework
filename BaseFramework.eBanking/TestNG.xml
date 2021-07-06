@@ -3,6 +3,10 @@
 
 <suite name="BaseFramework.eBanking">
 
+	<listeners>
+		<listener class-name="eBanking.utilities.Reporting"></listener>
+	</listeners>
+
 	<test name="BankingApp Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
