@@ -56,6 +56,8 @@ public class BaseClass {
 			driver = new EdgeDriver();
 		}
 
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 		driver.get(baseURL);
 		logger.info("URL is Opened");
 
