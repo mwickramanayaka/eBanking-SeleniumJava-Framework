@@ -27,10 +27,14 @@ public class Reporting extends TestListenerAdapter{
 
 	public void onStart(ITestContext testContext)
 	{
+		/*generate new extentReport with timeStamp
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
 		String repName="Test-Report-"+timeStamp+".html";
-
-		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "\\test-output\\ExtentReports\\"+repName);//specify location of the report
+        htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "\\ExtentReports\\"+repName);//specify location of the report
+		*/
+		
+		//overwrite existing extentReport 
+		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "\\ExtentReports\\ExtentReport-eBanking.html");//specify location of the report
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+ "/extent-config.xml");
 
 		//create ExtentReports and attach reporter(s)
@@ -43,9 +47,6 @@ public class Reporting extends TestListenerAdapter{
 		extent.setSystemInfo("Browser","chrome");
 		extent.setSystemInfo("user","manul");
 
-		htmlReporter.config().setDocumentTitle("InetBanking Test Project"); // Tile of report
-		htmlReporter.config().setReportName("Functional Test Automation Report"); // name of the report
-		htmlReporter.config().setTheme(Theme.DARK);
 	}
 
 	public void onTestSuccess(ITestResult tr)
@@ -58,7 +59,8 @@ public class Reporting extends TestListenerAdapter{
 	{
 		logger=extent.createTest(tr.getName()); // create new entry in the report
 		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the passed information to the report with RED color highlighted
-
+		logger.log(Status.FAIL, "Test case Failed : " + tr.getThrowable());
+		
 		try {
 
 			String screenshotPath = BaseClass.captureScreen(BaseClass.driver, "loginTest");
