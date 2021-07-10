@@ -4,6 +4,7 @@
 package eBanking.testCases;
 
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -46,8 +47,8 @@ public class BaseClass {
 		logger = LogManager.getLogger(BaseClass.class);	
 
 		if(br.equalsIgnoreCase("chrome")) {
-		System.setProperty("webdriver.chrome.driver", readConfig.getChromePath() );
-		driver = new ChromeDriver();
+			System.setProperty("webdriver.chrome.driver", readConfig.getChromePath() );
+			driver = new ChromeDriver();
 		}else if(br.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver", readConfig.getFirefoxPath() );
 			driver = new FirefoxDriver();
@@ -55,7 +56,10 @@ public class BaseClass {
 			System.setProperty("webdriver.edge.driver", readConfig.getEdgePath() );
 			driver = new EdgeDriver();
 		}
-
+		
+		//set position of current window to the secondary screen 
+		driver.manage().window().setPosition(new Point(-1500, 0));
+		//driver.manage().window().setSize(new Dimension(1024, 730));
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get(baseURL);
@@ -69,7 +73,7 @@ public class BaseClass {
 		driver.quit();
 
 	}
-	
+
 	public static String captureScreen(WebDriver driver, String tname) throws IOException {
 
 		String dateName = new SimpleDateFormat("yyyy-MM-dd/hh.mm.ss").format(new Date());
@@ -83,6 +87,6 @@ public class BaseClass {
 		FileUtils.copyFile(source, finalDestination);
 		return screenshotPath;
 	}
-	
+
 
 }
