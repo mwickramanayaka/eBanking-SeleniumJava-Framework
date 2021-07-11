@@ -1,7 +1,5 @@
 package eBanking.utilities;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import org.testng.ITestContext;
 import org.testng.ITestResult;
@@ -13,7 +11,6 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import eBanking.BaseClass.BaseClass;
 
@@ -44,7 +41,6 @@ public class Reporting extends TestListenerAdapter{
 		extent.setSystemInfo("Host name","localhost");
 		extent.setSystemInfo("OS","Windows10");
 		extent.setSystemInfo("Environemnt","QA");
-		extent.setSystemInfo("Browser","chrome");
 		extent.setSystemInfo("user","manul");
 
 	}

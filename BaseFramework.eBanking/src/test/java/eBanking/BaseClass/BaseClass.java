@@ -59,6 +59,7 @@ public class BaseClass {
 			driver = new EdgeDriver();
 		}
 		
+		logger.info("This test is on: "+br+" browser");
 		//set position of current window to the secondary screen 
 		driver.manage().window().setPosition(new Point(-1500, 0));
 		//driver.manage().window().setSize(new Dimension(1024, 730));
@@ -67,7 +68,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get(baseURL);
 		logger.info("URL is Opened");
-
+	
 	}
 
 	@AfterClass

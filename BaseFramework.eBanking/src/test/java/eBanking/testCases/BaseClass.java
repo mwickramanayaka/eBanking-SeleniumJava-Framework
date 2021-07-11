@@ -49,16 +49,21 @@ public class BaseClass {
 		logger = LogManager.getLogger(BaseClass.class);	
 
 		if(br.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", readConfig.getChromePath() );
+			System.setProperty("webdriver.chrome.driver", readConfig.getChromePath());
 			driver = new ChromeDriver();
+			
 		}else if(br.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", readConfig.getFirefoxPath() );
+			System.setProperty("webdriver.gecko.driver", readConfig.getFirefoxPath());
 			driver = new FirefoxDriver();
+			
 		}else if(br.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.edge.driver", readConfig.getEdgePath() );
+			System.setProperty("webdriver.edge.driver", readConfig.getEdgePath());
 			driver = new EdgeDriver();
+			
 		}
 		
+		
+		logger.info("This test is on: "+br+" browser");
 		//set position of current window to the secondary screen 
 		driver.manage().window().setPosition(new Point(-1500, 0));
 		//driver.manage().window().setSize(new Dimension(1024, 730));

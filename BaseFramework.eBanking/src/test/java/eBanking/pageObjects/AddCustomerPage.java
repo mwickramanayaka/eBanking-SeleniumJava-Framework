@@ -37,7 +37,7 @@ WebDriver driver;
 	WebElement rdGender;
 
 	@CacheLookup
-	@FindBy(how = How.ID_OR_NAME, using = "dob")
+	@FindBy(how = How.XPATH, using = "//input[@id='dob']")
 	WebElement txtdob;
 
 	@CacheLookup
