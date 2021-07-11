@@ -1,5 +1,16 @@
-[INFO ] 2021-07-10 18:26:22.251 [main] BaseClass - URL is Opened
-[INFO ] 2021-07-10 18:26:22.517 [main] BaseClass - username entered
-[INFO ] 2021-07-10 18:26:22.708 [main] BaseClass - password entered 
-[INFO ] 2021-07-10 18:26:24.314 [main] BaseClass - title matched
-[INFO ] 2021-07-10 18:26:24.314 [main] BaseClass - login test passed
+[INFO ] 2021-07-11 08:21:27.602 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-11 08:21:27.794 [main] BaseClass - username entered
+[INFO ] 2021-07-11 08:21:27.920 [main] BaseClass - password entered 
+[INFO ] 2021-07-11 08:21:29.296 [main] BaseClass - title matched
+[INFO ] 2021-07-11 08:21:29.297 [main] BaseClass - login test passed
+[INFO ] 2021-07-11 08:21:35.265 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-11 08:21:36.614 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 08:21:36.756 [main] BaseClass - password provided
+[INFO ] 2021-07-11 08:21:41.428 [main] BaseClass - Login passed
+[INFO ] 2021-07-11 08:21:46.909 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 08:21:46.998 [main] BaseClass - password provided
+[INFO ] 2021-07-11 08:21:52.040 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 08:21:52.141 [main] BaseClass - password provided
+[INFO ] 2021-07-11 08:21:57.141 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 08:21:57.241 [main] BaseClass - password provided
+[INFO ] 2021-07-11 08:22:01.386 [main] BaseClass - Login passed
