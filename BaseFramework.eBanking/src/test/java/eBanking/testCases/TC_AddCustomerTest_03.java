@@ -15,7 +15,7 @@ import eBanking.pageObjects.LoginPage;
  * @author manul.wickramanayaka
  *
  */
-public class TC_AddCustomerTest_03 extends BaseClass{
+public class TC_AddCustomerTest_03 extends eBanking.BaseClass.BaseClass{
 	
 	@Test
 	public void addNewCustomer() throws InterruptedException, IOException

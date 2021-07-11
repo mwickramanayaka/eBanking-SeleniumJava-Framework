@@ -15,7 +15,7 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import eBanking.testCases.BaseClass;
+import eBanking.BaseClass.BaseClass;
 
 public class Reporting extends TestListenerAdapter{
 

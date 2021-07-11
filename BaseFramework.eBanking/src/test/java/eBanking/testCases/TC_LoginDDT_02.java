@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import eBanking.pageObjects.LoginPage;
 import eBanking.utilities.XLUtils;
 
-public class TC_LoginDDT_02 extends BaseClass{
+public class TC_LoginDDT_02 extends eBanking.BaseClass.BaseClass{
 
 	@Test(dataProvider="LoginData")
 	public void loginDDT(String user,String pwd) throws InterruptedException

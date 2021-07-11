@@ -14,7 +14,7 @@ import eBanking.pageObjects.LoginPage;
  * @author manul.wickramanayaka
  *
  */
-public class TC_LoginTest_01 extends BaseClass {
+public class TC_LoginTest_01 extends eBanking.BaseClass.BaseClass {
 
 	@Test
 	public void loginTest() throws IOException {
