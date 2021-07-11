@@ -1,35 +1,79 @@
-[INFO ] 2021-07-11 19:29:18.636 [TestNG-tests-1] BaseClass - This test is on: chrome browser
-[INFO ] 2021-07-11 19:29:19.885 [TestNG-tests-2] BaseClass - This test is on: edge browser
-[INFO ] 2021-07-11 19:29:24.236 [TestNG-tests-1] BaseClass - URL is Opened
-[INFO ] 2021-07-11 19:29:25.888 [TestNG-tests-3] BaseClass - This test is on: firefox browser
-[INFO ] 2021-07-11 19:29:28.700 [TestNG-tests-2] BaseClass - URL is Opened
-[INFO ] 2021-07-11 19:29:28.832 [TestNG-tests-1] BaseClass - username entered
-[INFO ] 2021-07-11 19:29:28.968 [TestNG-tests-1] BaseClass - password entered 
-[INFO ] 2021-07-11 19:29:42.592 [TestNG-tests-3] BaseClass - URL is Opened
-[WARN ] 2021-07-11 19:29:42.639 [TestNG-tests-1] BaseClass - expected title not matched with the actual title
-[ERROR] 2021-07-11 19:29:42.639 [TestNG-tests-1] BaseClass - login test failed
-[INFO ] 2021-07-11 19:29:42.735 [TestNG-tests-2] BaseClass - username entered
-[INFO ] 2021-07-11 19:29:42.756 [TestNG-tests-3] BaseClass - username entered
-[INFO ] 2021-07-11 19:29:42.921 [TestNG-tests-3] BaseClass - password entered 
-[INFO ] 2021-07-11 19:29:42.940 [TestNG-tests-2] BaseClass - password entered 
-[INFO ] 2021-07-11 19:29:48.880 [TestNG-tests-1] BaseClass - This test is on: chrome browser
-[INFO ] 2021-07-11 19:29:52.331 [TestNG-tests-1] BaseClass - URL is Opened
-[INFO ] 2021-07-11 19:29:54.682 [TestNG-tests-1] BaseClass - user name provided
-[INFO ] 2021-07-11 19:29:54.985 [TestNG-tests-1] BaseClass - password provided
-[INFO ] 2021-07-11 19:29:59.742 [TestNG-tests-1] BaseClass - Login passed
-[INFO ] 2021-07-11 19:30:06.498 [TestNG-tests-1] BaseClass - user name provided
-[INFO ] 2021-07-11 19:30:06.583 [TestNG-tests-1] BaseClass - password provided
-[INFO ] 2021-07-11 19:30:11.659 [TestNG-tests-1] BaseClass - user name provided
-[INFO ] 2021-07-11 19:30:11.749 [TestNG-tests-1] BaseClass - password provided
-[INFO ] 2021-07-11 19:30:16.886 [TestNG-tests-1] BaseClass - user name provided
-[INFO ] 2021-07-11 19:30:16.979 [TestNG-tests-1] BaseClass - password provided
-[INFO ] 2021-07-11 19:30:21.320 [TestNG-tests-1] BaseClass - Login passed
-[INFO ] 2021-07-11 19:30:28.440 [TestNG-tests-1] BaseClass - This test is on: chrome browser
-[INFO ] 2021-07-11 19:30:33.105 [TestNG-tests-1] BaseClass - URL is Opened
-[INFO ] 2021-07-11 19:30:33.280 [TestNG-tests-1] BaseClass - User name is provided
-[INFO ] 2021-07-11 19:30:33.417 [TestNG-tests-1] BaseClass - Passsword is provided
-[INFO ] 2021-07-11 19:30:39.021 [TestNG-tests-1] BaseClass - providing customer details....
-[INFO ] 2021-07-11 19:30:44.570 [TestNG-tests-1] BaseClass - customer details are added
-[INFO ] 2021-07-11 19:30:49.580 [TestNG-tests-1] BaseClass - validation started....
-[INFO ] 2021-07-11 19:30:49.618 [TestNG-tests-1] BaseClass - Customer Registered Successfully!!!
-[INFO ] 2021-07-11 19:30:49.618 [TestNG-tests-1] BaseClass - test case passed....
+[INFO ] 2021-07-11 23:20:29.790 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-07-11 23:20:32.874 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-11 23:20:33.091 [main] BaseClass - username entered
+[INFO ] 2021-07-11 23:20:33.252 [main] BaseClass - password entered 
+[INFO ] 2021-07-11 23:20:35.196 [main] BaseClass - title matched
+[INFO ] 2021-07-11 23:20:35.197 [main] BaseClass - login test passed
+[INFO ] 2021-07-11 23:20:37.021 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-07-11 23:20:39.935 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-11 23:20:41.173 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 23:20:41.331 [main] BaseClass - password provided
+[INFO ] 2021-07-11 23:20:46.153 [main] BaseClass - Login passed
+[INFO ] 2021-07-11 23:20:51.847 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 23:20:51.936 [main] BaseClass - password provided
+[INFO ] 2021-07-11 23:20:57.208 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 23:20:57.296 [main] BaseClass - password provided
+[INFO ] 2021-07-11 23:21:03.041 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 23:21:03.147 [main] BaseClass - password provided
+[INFO ] 2021-07-11 23:21:07.471 [main] BaseClass - Login passed
+[INFO ] 2021-07-11 23:21:14.857 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-07-11 23:21:17.747 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-11 23:21:17.906 [main] BaseClass - User name is provided
+[INFO ] 2021-07-11 23:21:18.042 [main] BaseClass - Passsword is provided
+[INFO ] 2021-07-11 23:21:23.023 [main] BaseClass - providing customer details....
+[INFO ] 2021-07-11 23:21:28.283 [main] BaseClass - customer details are added
+[INFO ] 2021-07-11 23:21:33.293 [main] BaseClass - validation started....
+[INFO ] 2021-07-11 23:21:33.323 [main] BaseClass - Customer Registered Successfully!!!
+[INFO ] 2021-07-11 23:21:33.324 [main] BaseClass - test case passed....
+[INFO ] 2021-07-11 23:21:35.754 [main] BaseClass - This test is on: edge browser
+[INFO ] 2021-07-11 23:21:40.325 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-11 23:21:40.475 [main] BaseClass - username entered
+[INFO ] 2021-07-11 23:21:40.618 [main] BaseClass - password entered 
+[INFO ] 2021-07-11 23:21:42.211 [main] BaseClass - title matched
+[INFO ] 2021-07-11 23:21:42.211 [main] BaseClass - login test passed
+[INFO ] 2021-07-11 23:21:44.406 [main] BaseClass - This test is on: edge browser
+[INFO ] 2021-07-11 23:21:47.273 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-11 23:21:47.764 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 23:21:47.929 [main] BaseClass - password provided
+[INFO ] 2021-07-11 23:21:52.825 [main] BaseClass - Login passed
+[INFO ] 2021-07-11 23:21:59.458 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 23:21:59.544 [main] BaseClass - password provided
+[INFO ] 2021-07-11 23:22:04.762 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 23:22:04.855 [main] BaseClass - password provided
+[INFO ] 2021-07-11 23:22:10.026 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 23:22:10.119 [main] BaseClass - password provided
+[INFO ] 2021-07-11 23:22:14.430 [main] BaseClass - Login passed
+[INFO ] 2021-07-11 23:22:22.293 [main] BaseClass - This test is on: edge browser
+[INFO ] 2021-07-11 23:22:27.265 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-11 23:22:27.393 [main] BaseClass - User name is provided
+[INFO ] 2021-07-11 23:22:27.537 [main] BaseClass - Passsword is provided
+[INFO ] 2021-07-11 23:22:33.342 [main] BaseClass - providing customer details....
+[INFO ] 2021-07-11 23:22:38.917 [main] BaseClass - customer details are added
+[INFO ] 2021-07-11 23:22:43.919 [main] BaseClass - validation started....
+[INFO ] 2021-07-11 23:22:43.946 [main] BaseClass - Customer Registered Successfully!!!
+[INFO ] 2021-07-11 23:22:43.947 [main] BaseClass - test case passed....
+[INFO ] 2021-07-11 23:22:50.012 [main] BaseClass - This test is on: firefox browser
+[INFO ] 2021-07-11 23:22:52.904 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-11 23:22:52.997 [main] BaseClass - username entered
+[INFO ] 2021-07-11 23:22:53.039 [main] BaseClass - password entered 
+[INFO ] 2021-07-11 23:22:55.057 [main] BaseClass - title matched
+[INFO ] 2021-07-11 23:22:55.057 [main] BaseClass - login test passed
+[INFO ] 2021-07-11 23:23:00.725 [main] BaseClass - This test is on: firefox browser
+[INFO ] 2021-07-11 23:23:03.467 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-11 23:23:03.941 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 23:23:03.991 [main] BaseClass - password provided
+[INFO ] 2021-07-11 23:23:08.823 [main] BaseClass - Login passed
+[INFO ] 2021-07-11 23:23:14.116 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 23:23:14.157 [main] BaseClass - password provided
+[INFO ] 2021-07-11 23:23:18.874 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 23:23:18.915 [main] BaseClass - password provided
+[INFO ] 2021-07-11 23:23:23.841 [main] BaseClass - user name provided
+[INFO ] 2021-07-11 23:23:23.888 [main] BaseClass - password provided
+[INFO ] 2021-07-11 23:23:27.771 [main] BaseClass - Login passed
+[INFO ] 2021-07-11 23:23:38.248 [main] BaseClass - This test is on: firefox browser
+[INFO ] 2021-07-11 23:23:41.124 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-11 23:23:41.216 [main] BaseClass - User name is provided
+[INFO ] 2021-07-11 23:23:41.260 [main] BaseClass - Passsword is provided
+[INFO ] 2021-07-11 23:23:46.394 [main] BaseClass - providing customer details....
+[INFO ] 2021-07-11 23:23:50.193 [main] BaseClass - customer details are added
+[INFO ] 2021-07-11 23:23:55.206 [main] BaseClass - validation started....
