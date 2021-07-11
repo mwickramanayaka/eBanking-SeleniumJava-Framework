@@ -23,6 +23,7 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -90,5 +91,18 @@ public class BaseClass {
 		return screenshotPath;
 	}
 
+	//generate random string
+	public String randomString() {
+		
+		String generateString = RandomStringUtils.randomAlphabetic(8);
+		return (generateString);
+		
+	}
+	
+	//generate random number
+	public static String randomeNum() {
+		String generatedString2 = RandomStringUtils.randomNumeric(6);
+		return (generatedString2);
+	}
 
 }

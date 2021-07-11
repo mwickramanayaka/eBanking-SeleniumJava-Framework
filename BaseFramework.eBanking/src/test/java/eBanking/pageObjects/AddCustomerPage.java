@@ -105,6 +105,7 @@ WebDriver driver;
 		txtstate.sendKeys(cstate);
 	}
 
+	// int pin number can be replace String parameter 
 	public void custpinno(String cpinno) {
 		txtpinno.sendKeys(String.valueOf(cpinno));
 	}
