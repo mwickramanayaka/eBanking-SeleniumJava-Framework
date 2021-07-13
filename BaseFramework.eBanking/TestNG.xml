@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<!-- <suite name="BaseFramework.eBanking"> -->
+<!-- <suite name="BaseFramework.eBanking" parallel="tests" thread-count="9"> -->
+<suite name="BaseFramework.eBanking">
 
-<suite name="BaseFramework.eBanking" parallel="tests" thread-count="9">
 	<listeners>
 		<listener class-name="eBanking.utilities.Reporting"></listener>
 	</listeners>
