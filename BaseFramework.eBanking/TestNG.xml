@@ -9,14 +9,15 @@
 	</listeners>
 
 
-	<test name="BankingApp Test on chrome">
-		<parameter name="browser" value="chrome"></parameter>
-		<classes>
 
+
+	<test name="Test on opera">
+		<parameter name="browser" value="opera"></parameter>
+		<classes>
+			<class name="framework.testCases.TC_LoginTest_01" />
+			<class name="framework.testCases.TC_LoginDDT_02" />
 			<class name="framework.testCases.TC_AddCustomerTest_03" />
 		</classes>
-	</test> <!-- Test1 -->
-
-
-
+	</test> <!-- Test4 -->
+	
 </suite> 

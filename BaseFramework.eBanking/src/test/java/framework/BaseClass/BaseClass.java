@@ -13,6 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.testng.annotations.AfterClass;
@@ -67,6 +68,9 @@ public class BaseClass {
 		}else if(br.equalsIgnoreCase("edge")) {
 			System.setProperty("webdriver.edge.driver", readConfig.getEdgePath() );
 			driver = new EdgeDriver();
+		}else if(br.equalsIgnoreCase("opera")) {
+			System.setProperty("webdriver.opera.driver", readConfig.getOperaPath() );
+			driver = new OperaDriver();
 		}
 
 		logger.info("This test is on: "+br+" browser");
