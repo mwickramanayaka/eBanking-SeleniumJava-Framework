@@ -46,9 +46,9 @@ public class BaseClass {
 	public String baseURL = readConfig.getApplicationURL();
 	public String userName = readConfig.getUserName();
 	public String password = readConfig.getPassword();
+	
 	public static WebDriver driver;
-
-	public static WebElement element;
+    public static WebElement element;
 	public static WebElement linkElement;
 
 	public static Logger logger;
@@ -81,6 +81,7 @@ public class BaseClass {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get(baseURL);
+		logger.info("This test is on Thread : "+Thread.currentThread().getId());
 		logger.info("URL is Opened");
 
 	}
@@ -88,6 +89,7 @@ public class BaseClass {
 	@AfterClass
 	public void tearDown() {
 
+		driver.close();
 		driver.quit();
 
 	}

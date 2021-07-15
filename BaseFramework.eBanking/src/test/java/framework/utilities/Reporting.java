@@ -21,7 +21,6 @@ public class Reporting extends TestListenerAdapter{
 	public ExtentReports extent;
 	public ExtentTest logger;
 
-
 	public void onStart(ITestContext testContext)
 	{
 		/*generate new extentReport with timeStamp
