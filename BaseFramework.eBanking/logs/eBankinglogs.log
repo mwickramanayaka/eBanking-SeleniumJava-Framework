@@ -1,1 +1,87 @@
-[INFO ] 2021-07-14 19:55:20.510 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-07-15 04:14:16.273 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-07-15 04:14:22.138 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-15 04:14:22.404 [main] BaseClass - username entered
+[INFO ] 2021-07-15 04:14:22.678 [main] BaseClass - password entered 
+[INFO ] 2021-07-15 04:14:27.635 [main] BaseClass - title matched
+[INFO ] 2021-07-15 04:14:27.635 [main] BaseClass - login test passed
+[INFO ] 2021-07-15 04:14:30.163 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-07-15 04:14:43.790 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-15 04:14:45.189 [main] BaseClass - user name provided
+[INFO ] 2021-07-15 04:14:45.319 [main] BaseClass - password provided
+[INFO ] 2021-07-15 04:14:52.145 [main] BaseClass - Login passed
+[INFO ] 2021-07-15 04:14:58.966 [main] BaseClass - user name provided
+[INFO ] 2021-07-15 04:14:59.062 [main] BaseClass - password provided
+[INFO ] 2021-07-15 04:15:06.243 [main] BaseClass - Screenshot taken
+[INFO ] 2021-07-15 04:15:06.391 [main] BaseClass - user name provided
+[INFO ] 2021-07-15 04:15:06.490 [main] BaseClass - password provided
+[INFO ] 2021-07-15 04:15:11.653 [main] BaseClass - Screenshot taken
+[INFO ] 2021-07-15 04:15:11.752 [main] BaseClass - user name provided
+[INFO ] 2021-07-15 04:15:11.921 [main] BaseClass - password provided
+[INFO ] 2021-07-15 04:15:16.233 [main] BaseClass - Login passed
+[INFO ] 2021-07-15 04:15:25.045 [main] BaseClass - This test is on: chrome browser
+[INFO ] 2021-07-15 04:15:32.731 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-15 04:15:32.920 [main] BaseClass - User name is provided
+[INFO ] 2021-07-15 04:15:33.105 [main] BaseClass - Passsword is provided
+[INFO ] 2021-07-15 04:15:40.218 [main] BaseClass - providing customer details....
+[INFO ] 2021-07-15 04:15:47.108 [main] BaseClass - customer details are added
+[INFO ] 2021-07-15 04:15:52.119 [main] BaseClass - validation started....
+[INFO ] 2021-07-15 04:15:52.143 [main] BaseClass - Customer Registered Successfully!!!
+[INFO ] 2021-07-15 04:15:52.143 [main] BaseClass - test case passed....
+[INFO ] 2021-07-15 04:15:56.016 [main] BaseClass - This test is on: edge browser
+[INFO ] 2021-07-15 04:16:16.154 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-15 04:16:16.328 [main] BaseClass - username entered
+[INFO ] 2021-07-15 04:16:16.498 [main] BaseClass - password entered 
+[INFO ] 2021-07-15 04:16:22.417 [main] BaseClass - title matched
+[INFO ] 2021-07-15 04:16:22.417 [main] BaseClass - login test passed
+[INFO ] 2021-07-15 04:16:25.255 [main] BaseClass - This test is on: edge browser
+[INFO ] 2021-07-15 04:16:35.399 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-15 04:16:36.084 [main] BaseClass - user name provided
+[INFO ] 2021-07-15 04:16:36.284 [main] BaseClass - password provided
+[INFO ] 2021-07-15 04:16:55.613 [main] BaseClass - Login passed
+[INFO ] 2021-07-15 04:17:07.658 [main] BaseClass - user name provided
+[INFO ] 2021-07-15 04:17:07.765 [main] BaseClass - password provided
+[INFO ] 2021-07-15 04:17:21.381 [main] BaseClass - Screenshot taken
+[INFO ] 2021-07-15 04:17:21.540 [main] BaseClass - user name provided
+[INFO ] 2021-07-15 04:17:21.678 [main] BaseClass - password provided
+[INFO ] 2021-07-15 04:17:41.004 [main] BaseClass - Screenshot taken
+[INFO ] 2021-07-15 04:17:41.122 [main] BaseClass - user name provided
+[INFO ] 2021-07-15 04:17:41.217 [main] BaseClass - password provided
+[INFO ] 2021-07-15 04:17:46.568 [main] BaseClass - Login passed
+[INFO ] 2021-07-15 04:17:58.620 [main] BaseClass - This test is on: edge browser
+[INFO ] 2021-07-15 04:18:07.921 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-15 04:18:08.173 [main] BaseClass - User name is provided
+[INFO ] 2021-07-15 04:18:08.339 [main] BaseClass - Passsword is provided
+[INFO ] 2021-07-15 04:18:17.086 [main] BaseClass - providing customer details....
+[INFO ] 2021-07-15 04:18:34.734 [main] BaseClass - customer details are added
+[INFO ] 2021-07-15 04:18:39.748 [main] BaseClass - validation started....
+[INFO ] 2021-07-15 04:18:39.773 [main] BaseClass - Customer Registered Successfully!!!
+[INFO ] 2021-07-15 04:18:39.773 [main] BaseClass - test case passed....
+[INFO ] 2021-07-15 04:18:47.417 [main] BaseClass - This test is on: firefox browser
+[INFO ] 2021-07-15 04:18:59.170 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-15 04:18:59.275 [main] BaseClass - username entered
+[INFO ] 2021-07-15 04:18:59.331 [main] BaseClass - password entered 
+[INFO ] 2021-07-15 04:19:01.372 [main] BaseClass - title matched
+[INFO ] 2021-07-15 04:19:01.372 [main] BaseClass - login test passed
+[INFO ] 2021-07-15 04:19:07.985 [main] BaseClass - This test is on: firefox browser
+[INFO ] 2021-07-15 04:19:14.590 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-15 04:19:15.122 [main] BaseClass - user name provided
+[INFO ] 2021-07-15 04:19:15.217 [main] BaseClass - password provided
+[INFO ] 2021-07-15 04:19:20.833 [main] BaseClass - Login passed
+[INFO ] 2021-07-15 04:19:31.450 [main] BaseClass - user name provided
+[INFO ] 2021-07-15 04:19:31.489 [main] BaseClass - password provided
+[INFO ] 2021-07-15 04:19:38.172 [main] BaseClass - Screenshot taken
+[INFO ] 2021-07-15 04:19:43.784 [main] BaseClass - user name provided
+[INFO ] 2021-07-15 04:19:43.841 [main] BaseClass - password provided
+[INFO ] 2021-07-15 04:19:48.265 [main] BaseClass - Screenshot taken
+[INFO ] 2021-07-15 04:19:49.831 [main] BaseClass - user name provided
+[INFO ] 2021-07-15 04:19:49.881 [main] BaseClass - password provided
+[INFO ] 2021-07-15 04:19:54.653 [main] BaseClass - Login passed
+[INFO ] 2021-07-15 04:20:03.064 [main] BaseClass - Screenshot taken
+[INFO ] 2021-07-15 04:20:10.590 [main] BaseClass - This test is on: firefox browser
+[INFO ] 2021-07-15 04:20:21.666 [main] BaseClass - URL is Opened
+[INFO ] 2021-07-15 04:20:21.814 [main] BaseClass - User name is provided
+[INFO ] 2021-07-15 04:20:21.855 [main] BaseClass - Passsword is provided
+[INFO ] 2021-07-15 04:20:28.500 [main] BaseClass - providing customer details....
+[INFO ] 2021-07-15 04:20:32.590 [main] BaseClass - customer details are added
+[INFO ] 2021-07-15 04:20:37.599 [main] BaseClass - validation started....
+[INFO ] 2021-07-15 04:20:37.781 [main] BaseClass - Screenshot taken

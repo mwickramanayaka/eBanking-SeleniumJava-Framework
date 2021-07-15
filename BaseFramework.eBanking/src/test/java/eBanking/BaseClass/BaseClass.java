@@ -87,7 +87,7 @@ public class BaseClass {
 		//after execution you will see a folder "FaiiedTestsScreenshots" under src folder
 		String screenshotPath = System.getProperty("user.dir")+"/Screenshots/" + tname + "-" + dateName + ".png";
 		File finalDestination = new File(screenshotPath);
-		System.out.println("Screenshot taken");
+		logger.info("Screenshot taken");
 		FileUtils.copyFile(source, finalDestination);
 		return screenshotPath;
 	}
