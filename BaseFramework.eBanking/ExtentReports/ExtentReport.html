@@ -48,7 +48,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Jul 15, 2021 05:54:53 AM</span>
+			<span class='label blue darken-3 suite-start-time'>Jul 15, 2021 07:42:30 AM</span>
 			</a>
 		</ul>
 	</div>
@@ -63,7 +63,8 @@
 				<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+					<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -106,10 +107,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='25%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='75%'>3</span> others
 				</div>
 			</div>
 		</div>
@@ -127,17 +128,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>addNewCustomer</span>
-						<span class='test-time'>Jul 15, 2021 05:55:27 AM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Jul 15, 2021 07:42:49 AM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jul 15, 2021 05:55:27 AM</span>
-	<span class='label end-time'>Jul 15, 2021 05:55:27 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+4ms</span>
+	<span class='label start-time'>Jul 15, 2021 07:42:49 AM</span>
+	<span class='label end-time'>Jul 15, 2021 07:42:49 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+3ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -149,17 +150,149 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>5:55:27 AM</td>
+			<tr class='log' status='skip'>
+				<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+				<td class='timestamp'>7:42:49 AM</td>
 				<td class='step-details'>
-						<span class='badge white-text green'>addNewCustomer</span>
+						<span class='badge white-text orange'>addNewCustomer</span>
 					
 				</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
+					</div>
+				</li>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>addNewCustomer</span>
+						<span class='test-time'>Jul 15, 2021 07:42:54 AM</span>
+						<span class='test-status right skip'>skip</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 15, 2021 07:42:54 AM</span>
+	<span class='label end-time'>Jul 15, 2021 07:42:54 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='skip'>
+				<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+				<td class='timestamp'>7:42:54 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text orange'>addNewCustomer</span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>addNewCustomer</span>
+						<span class='test-time'>Jul 15, 2021 07:42:59 AM</span>
+						<span class='test-status right skip'>skip</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 15, 2021 07:42:59 AM</span>
+	<span class='label end-time'>Jul 15, 2021 07:42:59 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='skip'>
+				<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+				<td class='timestamp'>7:42:59 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text orange'>addNewCustomer</span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>addNewCustomer</span>
+						<span class='test-time'>Jul 15, 2021 07:43:04 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 15, 2021 07:43:04 AM</span>
+	<span class='label end-time'>Jul 15, 2021 07:43:04 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+192ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>7:43:04 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>addNewCustomer</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>7:43:04 AM</td>
+				<td class='step-details'>
+						Test case Failed : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='uid']"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\MANUL~1.WIC\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f6e2cba771334d915beeaed145f501
+*** Element info: {Using=name, value=uid}
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>7:43:04 AM</td>
+				<td class='step-details'>
+						Screenshot is below :  com.aventstack.extentreports.ExtentTest@a52ca2e
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+						<ul class='screenshots'>
+							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='D:\seleniumTests\Frameworks\SeleniumHybridFramework-ebankingAutomation\BaseFramework.eBanking/Screenshots/loginTest-2021-07-15/07.43.04.png' src='D:\seleniumTests\Frameworks\SeleniumHybridFramework-ebankingAutomation\BaseFramework.eBanking/Screenshots/loginTest-2021-07-15/07.43.04.png' data-src='D:\seleniumTests\Frameworks\SeleniumHybridFramework-ebankingAutomation\BaseFramework.eBanking/Screenshots/loginTest-2021-07-15/07.43.04.png'></li>
+						</ul>
 					</div>
 				</li>
 			</ul>
@@ -191,7 +324,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>4</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -203,13 +336,13 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 15, 2021 05:54:53 AM</div>
+					<div class='panel-lead'>Jul 15, 2021 07:42:30 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 15, 2021 05:54:53 AM</div>
+			 		<div class='panel-lead'>Jul 15, 2021 07:42:30 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -254,13 +387,13 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-				passParent: 1,
-				failParent: 0,
+				passParent: 0,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 0,
-				exceptionsParent: 0,
+				skipParent: 3,
+				exceptionsParent: 4,
 				
 				passChild: 0,
 				failChild: 0,
@@ -285,7 +418,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "addNewCustomer":0.004
+			        "addNewCustomer":0.003,"addNewCustomer":0.001,"addNewCustomer":0.001,"addNewCustomer":0.192
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/master/v3html/js/extent.js' type='text/javascript'></script>

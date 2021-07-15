@@ -17,7 +17,7 @@ import framework.pageObjects.LoginPage;
  */
 public class TC_AddCustomerTest_03 extends framework.BaseClass.BaseClass{
 	
-	@Test
+	@Test(retryAnalyzer = framework.utilities.RetryAnalyzer.class)
 	public void addNewCustomer() throws InterruptedException, IOException
 	{
 		//--------------------------------------login------------------------------------------

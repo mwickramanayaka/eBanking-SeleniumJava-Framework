@@ -12,28 +12,11 @@
 	<test name="BankingApp Test on chrome">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="framework.testCases.TC_LoginTest_01" />
-			<class name="framework.testCases.TC_LoginDDT_02" />
+
 			<class name="framework.testCases.TC_AddCustomerTest_03" />
 		</classes>
 	</test> <!-- Test1 -->
 
-	<test name="BankingApp Test on edge">
-		<parameter name="browser" value="edge"></parameter>
-		<classes>
-			<class name="framework.testCases.TC_LoginTest_01" />
-			<class name="framework.testCases.TC_LoginDDT_02" />
-			<class name="framework.testCases.TC_AddCustomerTest_03" />
-		</classes>
-	</test> <!-- Test2 -->
 
-	<test name="BankingApp Test on firefox">
-		<parameter name="browser" value="firefox"></parameter>
-		<classes>
-			<class name="framework.testCases.TC_LoginTest_01" />
-			<class name="framework.testCases.TC_LoginDDT_02" />
-			<class name="framework.testCases.TC_AddCustomerTest_03" />
-		</classes>
-	</test> <!-- Test3 -->
 
 </suite> 
