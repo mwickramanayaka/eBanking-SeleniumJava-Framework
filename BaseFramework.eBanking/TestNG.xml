@@ -16,7 +16,7 @@
 			<class name="framework.testCases.TC_AddCustomerTest_03" />
 		</classes>
 	</test> <!-- Test1 -->
- <!--
+
 	<test name="Test on edge">
 		<parameter name="browser" value="edge"></parameter>
 		<classes>
@@ -24,7 +24,7 @@
 			<class name="framework.testCases.TC_LoginDDT_02" />
 			<class name="framework.testCases.TC_AddCustomerTest_03" />
 		</classes>
-	</test> 
+	</test> <!-- Test2 -->
 
 	<test name="Test on firefox">
 		<parameter name="browser" value="firefox"></parameter>
@@ -32,7 +32,7 @@
 			<class name="framework.testCases.TC_LoginTest_01" />
 			<class name="framework.testCases.TC_LoginDDT_02" />
 		</classes>
-	</test>  
+	</test>  <!-- Test3 -->
 
 	<test name="Test on opera">
 		<parameter name="browser" value="opera"></parameter>
@@ -41,6 +41,6 @@
 			<class name="framework.testCases.TC_LoginDDT_02" />
 			<class name="framework.testCases.TC_AddCustomerTest_03" />
 		</classes>
-	</test>      -->
+	</test>   <!-- Test4 -->
 
 </suite> 
