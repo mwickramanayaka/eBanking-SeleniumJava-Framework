@@ -31,6 +31,7 @@ public class TC_LoginDDT_02 extends framework.BaseClass.BaseClass{
 			Assert.assertTrue(false);
 			logger.warn("Login failed");
 			logger.error("login failed");
+			
 		}
 		else
 		{

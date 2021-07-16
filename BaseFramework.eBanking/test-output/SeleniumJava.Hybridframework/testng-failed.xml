@@ -4,8 +4,8 @@
   <listeners>
     <listener class-name="framework.utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="Test on opera(failed)">
-    <parameter name="browser" value="opera"/>
+  <test thread-count="5" name="Test on chrome(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="framework.testCases.TC_LoginDDT_02">
         <methods>
@@ -15,5 +15,5 @@
         </methods>
       </class> <!-- framework.testCases.TC_LoginDDT_02 -->
     </classes>
-  </test> <!-- Test on opera(failed) -->
+  </test> <!-- Test on chrome(failed) -->
 </suite> <!-- Failed suite [SeleniumJava.Hybridframework] -->
